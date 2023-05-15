@@ -20,11 +20,12 @@ The Location Task Reminder app allows users to create tasks with titles, descrip
 ## Screenshots
 
 <div>
+  <img src="https://github.com/ezzahmed77/locationtaskreminder/assets/112197330/611f0235-6c73-4faa-8952-fa95edcac519" width="250px">
+  <img src="https://github.com/ezzahmed77/locationtaskreminder/assets/112197330/55446580-c562-4b9e-98ad-d8b5eef58d10" width="250px">
   <img src="https://github.com/ezzahmed77/locationtaskreminder/assets/112197330/12fa9413-2b9c-463f-92ba-8cc586f9a207" width="250px">
   <img src="https://github.com/ezzahmed77/locationtaskreminder/assets/112197330/526fb9e5-5e2a-4b23-9d34-83b841e64010" width="250px">
   <img src="https://github.com/ezzahmed77/locationtaskreminder/assets/112197330/7fe0ce9f-445f-488a-84e6-d48731535784" width="250px">
-  <img src="https://github.com/ezzahmed77/locationtaskreminder/assets/112197330/611f0235-6c73-4faa-8952-fa95edcac519" width="250px">
-  <img src="https://github.com/ezzahmed77/locationtaskreminder/assets/112197330/55446580-c562-4b9e-98ad-d8b5eef58d10" width="250px">
+  
 </div>
 
 
