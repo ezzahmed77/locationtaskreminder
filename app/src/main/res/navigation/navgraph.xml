@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/remindersListFragment">
+
+    <fragment
+        android:id="@+id/remindersListFragment"
+        android:name="com.example.locationtaskreminder.ui.RemindersListFragment"
+        android:label="Reminders"
+        tools:layout="@layout/fragment_reminders_list" >
+        <action
+            android:id="@+id/action_remindersListFragment_to_createTaskFragment"
+            app:destination="@id/createTaskFragment" />
+        <action
+            android:id="@+id/action_remindersListFragment_to_reminderDetailsFragment"
+            app:destination="@id/reminderDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createTaskFragment"
+        android:name="com.example.locationtaskreminder.ui.CreateTaskFragment"
+        android:label="CreateTaskFragment" >
+        <action
+            android:id="@+id/action_createTaskFragment_to_selectLocationFragment"
+            app:destination="@id/selectLocationFragment" />
+        <action
+            android:id="@+id/action_createTaskFragment_to_remindersListFragment"
+            app:destination="@id/remindersListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectLocationFragment"
+        android:name="com.example.locationtaskreminder.ui.SelectLocationFragment"
+        android:label="fragment_select_location"
+        tools:layout="@layout/fragment_select_location" >
+        <action
+            android:id="@+id/action_selectLocationFragment_to_createTaskFragment"
+            app:destination="@id/createTaskFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/reminderDetailsFragment"
+        android:name="com.example.locationtaskreminder.ui.ReminderDetailsFragment"
+        android:label="ReminderDetailsFragment" >
+        <argument
+            android:name="reminderId"
+            app:argType="integer" />
+    </fragment>
+</navigation>

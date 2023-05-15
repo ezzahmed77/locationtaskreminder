@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Location Task Reminder</string>
+    <string name="title_hint">Enter title</string>
+    <string name="description_hint">Enter description</string>
+    <string name="save_task">Save</string>
+    <string name="set_location">Set location</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
